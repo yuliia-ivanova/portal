@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Bold";
+src: url("../assets/fonts/OpenSans-Bold.ttf"),
+	url("../assets/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Light";
+src: url("../assets/fonts/OpenSans-Light.ttf"),
+	url("../assets/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+	font-family: "Regular";
+src: url("../assets/fonts/OpenSans-Regular.ttf"),
+	url("../assets/fonts/OpenSans-Regular.ttf");
+}
+
+//colors
+$bg-color: #efefef;
+
+//fonts
+$title-font: "Bold";
+$text-font: "Light";
