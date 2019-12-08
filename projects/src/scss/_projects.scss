@@ -1,0 +1,74 @@
+.projects {
+	background-color: $bg-color;
+	padding: 50px 0;
+}
+
+.logo {
+	@include square (150px);
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: $title-txt;
+
+	&__title {
+		text-transform: capitalize;
+		font-size: $title-size;
+		font-family: $title-font;
+		font-weight: 700;
+	}
+
+	&__subtitle {
+		font-family: $text-font;
+		font-size: $txt-size;
+		font-weight: 300;
+		margin: 0;
+	}
+}
+
+.nav {
+	justify-content: space-between;
+
+	&-item {
+		width: 100%;
+		max-width: 150px;
+
+		&:first-child,
+		&:last-child {
+			width: 100%;
+			max-width: 120px;
+		}
+
+		&__btn {
+			width: 100%;
+			text-transform: capitalize;
+
+			&:hover {
+			background-color: $white;
+			color: $title-txt;
+			border-color: $white;
+			transition: $transition;
+			}
+
+		}
+	}
+}
+
+.card {
+	padding: 15px;
+	border-radius: 3px;
+
+	&-img-top {
+		border-radius: 3px;
+	}
+
+	&-body {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+.card-link {
+	color: $btn-txt;
+}

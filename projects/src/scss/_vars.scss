@@ -16,8 +16,17 @@ src: url("../assets/fonts/OpenSans-Regular.ttf"),
 }
 
 //colors
+$white: #fff;
 $bg-color: #efefef;
+$title-txt: #6d6e71;
+$btn-txt: #c2c2c2;
 
 //fonts
 $title-font: "Bold";
 $text-font: "Light";
+$title-size: 44px;
+$txt-size: 17px;
+
+
+$transition: all .5s ease;
+
