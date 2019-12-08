@@ -1,0 +1,62 @@
+.team {
+	padding: 50px 0;
+}
+
+.logo {
+	@include square (150px);
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: $title-txt;
+
+	&__title {
+		text-transform: capitalize;
+		font-weight: 700;
+	}
+
+	&__subtitle {
+		font-weight: 300;
+		margin: 0;
+	}
+}
+
+.card {
+	background-color: $bg-color;
+	border: none;
+
+	&-text {
+	 	text-transform: capitalize;
+	}
+}
+
+.card-body {
+	color: $title-txt;
+
+	&__img {
+		margin-bottom: 15px;
+	}
+}
+
+.card-social {
+	background-color: $white;
+	margin-bottom: 20px;
+
+	&__list {
+		margin: 0;
+		padding: 10px;
+	}
+}
+
+.social-icon {
+	color: $btn-txt;
+	font-size: 20px;
+
+	&:hover {
+		text-decoration: none;
+		color: $title-txt;
+		transition: $transition;
+	}
+}
